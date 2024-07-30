@@ -1,0 +1,112 @@
+
+\def \Subject {گزارش پروژه}
+\def \Course {امنیت سیستم‌های کامپیوتری}
+\def \Author {سید معین کاظمی و علی رهنما علمداری}
+\def \Report {مینی‌پروژه‌ی اول و دوم}
+\def \StudentNumber {۹۸۵۲۱۳۹۶ - ۹۸۵۲۱۲۱۶}
+
+\begin{center}
+\vspace{.4cm}
+{\bf {\huge \Subject}}\\
+{\bf \Large \Course}
+\vspace{.2cm}
+\end{center}
+{\bf \Author }  \\
+{\bf شماره دانشجویی:\ \StudentNumber}
+\hspace{\fill} 
+{\Large \Report} \\
+\hrule
+\vspace{0.8cm}
+
+\clearpage
+
+\section{مینی پروژه‌ی اول}
+در این سوال قصد داریم تا یک متن را در یک عکس مخفی کنیم.برای این کار بیت آخر مربوط به هر پیکسل را عوض می‌کنیم.چون فقط بیت آخر هر پیکسل را عوض می‌کنیم تغییر خاصی در رنگ و تصویر کلی به وجود نخواهد آمد.سپس متنمان را بیت به بیت جدا می‌کنیم و هر بیت را در بیت آخر هر پیکسل جاسازی می‌کنیم.در این صورت می‌گوییم که پیاممان در تصویر 
+\lr{encode}
+شده است.برای عملیات
+\lr{decode}
+کردن هم بیت ها را یکی یکی از تصویر در می‌آوریم و کنار‌هم می‌گذاریم تا پیام اصلی ما به‌دست آید.
+
+\subsection{توضیح کد‌ها}
+\par
+ابتدا یک ورودی به صورت عدد می‌گیریم که اگر یک بود قصد
+\lr{encode}
+کردن داریم در غیر این صورت قصد
+\lr{decode}
+کردن را داریم.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/1.png}
+\end{figure}
+
+در تابع
+\lr{encode}
+ابتدا آدرس و اسم عکس و متن را می‌گیریم و عکس را باز می‌کنیم.سپس به همان روشی که در بالا ذکر شد متن را در عکس جاساز می‌کنیم و در نهایت هم عکس را ذخیره می‌کنیم.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{images/2.png}
+\end{figure}
+
+عملیات
+\lr{decode} 
+کردن هم برعکس عملیات بالاست که قبلا هم ذکر شد و در عکس زیر کد مربوط به آن را می‌توانید بیبینید.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/3.png}
+\end{figure}
+در ادامه می‌توانید ورودی‌ها و خروجی‌های برنامه را مشاهده بفرمایید.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/image.jpg}
+    \caption{دصویر ورودی}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/encode_output.png}
+    \caption{دصویر بعد از عملیات رمزگذاری}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/5.png}
+    \caption{encoding and decoding}
+\end{figure}
+همچنین تابعی وجود دارد که متن داده شده را چک می‌کند که آیا با معنی است یا خیر.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/6.jpg}
+    \caption{تابع برای چک کردن با معنی بودن متن ورودی}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/7.png}
+    \caption{حروجی حاصل از متن بی معنی}
+\end{figure}
+
+\section{مینی پروژه‌ی دوم}
+در این قسمت ما قصد داریم یک تصویر را به عنوان لوگو روی یک تصویر دیگر بیندازیم و به اصطلاح عملیات
+\lr{watermarking}
+را انجام دهیم.با این کار قصد داریم اصالت تصویر را حفظ کنیم.
+
+\subsection{توضیح کد‌ها}
+در ابتدا عکس اصلی و لوگو را گرفته و سایز تصویر را تنظیم می‌کنیم.همچنین مکانی را که می‌خواهیم لوگو روی تصویر بیفتد را هم تنظیم ‌می‌کنیم و در نهایت هم عکس را ذخیره‌ می‌کنیم.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/4.png}
+\end{figure}
+در ادامه می‌توانید ورودی‌ها و خروجی‌های برنامه را مشاهده بفرمایید.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/image.jpg}
+    \caption{تصویر پس‌زمینه}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/Logo.png}
+    \caption{لوگو}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/Q2_output.png}
+    \caption{خروجی}
+\end{figure}
