@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CAD_Final.srcs/sources_1/new/Pack.vhd" \
+"../../../../CAD_Final.srcs/sources_1/new/Main.vhd" \
+"../../../../CAD_Final.srcs/sources_1/new/PE.vhd" \
+"../../../../CAD_Final.srcs/sources_1/new/Tile.vhd" \
+"../../../../CAD_Final.srcs/sim_1/new/main_tb.vhd" \
+
+# Do not sort compile order
+nosort

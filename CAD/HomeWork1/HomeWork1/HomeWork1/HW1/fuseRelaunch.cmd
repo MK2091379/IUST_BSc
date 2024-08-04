@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/CAD/HW1/HW1/encoder_q1_isim_beh.exe" -prj "D:/CAD/HW1/HW1/encoder_q1_beh.prj" "work.encoder_q1" 

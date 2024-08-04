@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ASUS/Desktop/hw2/hw2_proj/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ASUS/Desktop/hw2/hw2_proj/xst"
+elaborate
+-ifn q3.prj
+-ifmt mixed

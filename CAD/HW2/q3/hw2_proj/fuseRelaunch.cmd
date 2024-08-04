@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ASUS/Desktop/hw2/hw2_proj/q2_tb_isim_beh.exe" -prj "C:/Users/ASUS/Desktop/hw2/hw2_proj/q2_tb_beh.prj" "work.q2_tb" 
