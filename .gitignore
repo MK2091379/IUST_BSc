@@ -167,6 +167,11 @@ fabric.properties
 # Portable Document Format
 *.pdf
 
+# Microsoft Word Document Files
+*.doc
+*.docx
+.docm
+
 # X BitMap
 *.xbm
 
