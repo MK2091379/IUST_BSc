@@ -39,7 +39,7 @@ A comprehensive, centralized repository containing undergraduate-level academic 
 | `Computer Simulation` | Discrete-Event Simulation (DES) | Stochastic modeling, event-list scheduling, $M/M/1$ queue dynamics, Little's Law | Python 3, NumPy, Matplotlib |
 | `Computer Vision` | Image Processing & Visual Recognition | Spatial/frequency filtering (FFT), SIFT/ORB homography, CNNs, optical flow | Python 3, OpenCV, PyTorch, Scikit-Image |
 
----
+--- 
 
 ### 4. Networks, Security, Communications & Signal Processing
 | Directory | Subject / Domain | Core Focus & Paradigms | Primary Tech Stack |
